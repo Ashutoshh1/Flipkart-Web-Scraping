@@ -38,7 +38,7 @@ for i in reviews:
 
 
 df = pd.DataFrame({"Product Name":Product_name,"Prices":Prices,"Description":Description,"Reviews":Reviews})
-#print(df)
+
 df.to_csv("C:/Users/hp/Desktop/WebScrap/flipkart_mobile_under_50000.csv")
 
 
